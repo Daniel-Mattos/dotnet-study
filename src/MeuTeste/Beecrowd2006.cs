@@ -1,22 +1,23 @@
-using System;
-
-public class Beecrowd2006
+namespace MeuTeste
 {
-	public static void Executar()
+	public class Beecrowd2006
 	{
-		//Exercicio do beecrowd 2006 iniciante
-
-		string entrada = Console.ReadLine();
-		string entrada2 = Console.ReadLine();
-		int resultado = 0;
-
-		string[] numerosComoTexto = entrada2.Split(' ');
-
-		for (int i = 0; i < numerosComoTexto.Length; i++)
+		public static void Executar()
 		{
-			if(numerosComoTexto[i] == entrada)
-				resultado+=1;
+			//Exercicio do beecrowd 2006 iniciante
+
+			string entrada = Console.ReadLine();
+			string entrada2 = Console.ReadLine();
+			int resultado = 0;
+
+			string[] numerosComoTexto = entrada2.Split(' ');
+
+			for (int i = 0; i < numerosComoTexto.Length; i++)
+			{
+				if (numerosComoTexto[i] == entrada)
+					resultado += 1;
+			}
+			Console.WriteLine(resultado);
 		}
-		Console.WriteLine(resultado);
 	}
 }

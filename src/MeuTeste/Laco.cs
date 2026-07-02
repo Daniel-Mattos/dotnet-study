@@ -1,9 +1,13 @@
-using System;
-
-public class Laco
+namespace MeuTeste
 {
-	public static void Executar()
+    public class Laco
     {
-        Console.WriteLine("Minha classe manual funcionou!");
+        public static void Tabuada(int x)
+        {
+            for (int i = 1; i <= 10; i++)
+            {
+                Console.WriteLine($"{x} X {i} = {x*i}");
+            }
+        }
     }
 }

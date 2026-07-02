@@ -1,23 +1,24 @@
-using System;
-
-public class SwitchCase
+namespace MeuTeste
 {
-	public static string VerificarVogal(string letra)
+	public class SwitchCase
 	{
-		switch (letra)
+		public static string VerificarVogal(string letra)
 		{
-			case "a":
-				return $"{letra} é uma vogal";
-			case "e":
-				return $"{letra} é uma vogal";
-			case "i":
-				return $"{letra} é uma vogal";
-			case "o":
-				return $"{letra} é uma vogal";
-			case "u":
-				return $"{letra} é uma vogal";
-			default: 
-				return $"{letra} não é uma vogal";
+			switch (letra)
+			{
+				case "a":
+					return $"{letra} é uma vogal";
+				case "e":
+					return $"{letra} é uma vogal";
+				case "i":
+					return $"{letra} é uma vogal";
+				case "o":
+					return $"{letra} é uma vogal";
+				case "u":
+					return $"{letra} é uma vogal";
+				default:
+					return $"{letra} não é uma vogal";
+			}
 		}
 	}
 }
