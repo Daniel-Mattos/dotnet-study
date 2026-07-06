@@ -5,3 +5,5 @@ MeuTeste.Calculadora.Somar(10,20);
 MeuTeste.Calculadora.Seno(30);
 MeuTeste.Calculadora.Cos(45);
 MeuTeste.Calculadora.Tangente(90);
+MeuTeste.Array.ExemploArray();
+MeuTeste.Array.ForEach();
