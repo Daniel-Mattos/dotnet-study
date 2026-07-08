@@ -34,26 +34,26 @@ O repositório está dividido utilizando o padrão de arquitetura que separa o c
 │
 ├── .gitignore                     # Arquivo para ignorar arquivos temporários (ex: bin/, obj/)
 └── MeuProjetoTest.slnx            # Arquivo de Solução do Visual Studio (gerencia os projetos)
-
-## 🎯 Conteúdos Praticados
-## 🧩 Fundamentos da Linguagem & Aprendizado Autónomo
+```
+🎯 Conteúdos Praticados
+🧩 Fundamentos da Linguagem & Aprendizado Autónomo
 Estruturas de Controle: Prática extensiva de tomadas de decisão (Condicional.cs, SwitchCase.cs) e controles de fluxo repetitivos (Laco.cs).
 
 Manipulação de Dados: Uso de coleções, arrays e listas dinâmicas (Array.cs, Estacionamento.cs) aplicando conceitos de entrada e saída com formatação segura de dados (int.TryParse e formatação de casas decimais).
 
-## 🏆 Desafios de Plataformas
+🏆 Desafios de Plataformas
 DIO.me: Códigos desenvolvidos para cumprir os requisitos dos desafios práticos do primeiro módulo (Desafio1Dio.cs e Desafio2Dio.cs).
 
 Beecrowd: Resolução e otimização algorítmica para maratonas de programação (Beecrowd2006.cs).
 
-## 🧪 Testes Unitários
+🧪 Testes Unitários
 Para garantir o pleno funcionamento das regras de negócio do sistema e entender como funciona o ecossistema de engenharia de software real, o projeto conta com uma camada dedicada de testes automatizados (tests/).
 
 Validação de cenários ideais e de exceção.
 
 Garantia de que alterações no código principal não quebrem funcionalidades já existentes.
 
-## 🛠️ Tecnologias Utilizadas
+🛠️ Tecnologias Utilizadas
 Linguagem: C#
 
 Framework: .NET Core / .NET SDK
@@ -62,7 +62,7 @@ IDE: Visual Studio / Visual Studio Code
 
 Testes: xUnit / MSTest (de acordo com o framework configurado no .csproj)
 
-## 🏎️ Como Executar o Projeto
+🏎️ Como Executar o Projeto
 Abra o terminal na pasta raiz do projeto.
 
 Para rodar a aplicação principal:
