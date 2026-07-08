@@ -35,7 +35,7 @@ O repositório está dividido utilizando o padrão de arquitetura que separa o c
 ├── .gitignore                     # Arquivo para ignorar arquivos temporários (ex: bin/, obj/)
 └── MeuProjetoTest.slnx            # Arquivo de Solução do Visual Studio (gerencia os projetos)
 ```
-🎯 Conteúdos Praticados
+## 🎯 Conteúdos Praticados
 🧩 Fundamentos da Linguagem & Aprendizado Autónomo
 Estruturas de Controle: Prática extensiva de tomadas de decisão (Condicional.cs, SwitchCase.cs) e controles de fluxo repetitivos (Laco.cs).
 
