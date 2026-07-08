@@ -1,7 +1,10 @@
-﻿MeuTeste.SwitchCase.VerificarVogal("a");
-MeuTeste.Condicional.VerificarNumero(10);
-MeuTeste.Laco.Tabuada(2);
-MeuTeste.Calculadora.Somar(10,20);
-MeuTeste.Calculadora.Seno(30);
-MeuTeste.Calculadora.Cos(45);
-MeuTeste.Calculadora.Tangente(90);
+﻿// MeuTeste.SwitchCase.VerificarVogal("a");
+// MeuTeste.Condicional.VerificarNumero(10);
+// MeuTeste.Laco.Tabuada(2);
+// MeuTeste.Calculadora.Somar(10,20);
+// MeuTeste.Calculadora.Seno(30);
+// MeuTeste.Calculadora.Cos(45);
+// MeuTeste.Calculadora.Tangente(90);
+// MeuTeste.Array.ExemploArray();
+// MeuTeste.Array.ForEach();
+MeuTeste.Estacionamento.Executar();
