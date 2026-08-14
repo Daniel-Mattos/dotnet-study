@@ -7,4 +7,26 @@
 // MeuTeste.Calculadora.Tangente(90);
 // MeuTeste.Array.ExemploArray();
 // MeuTeste.Array.ForEach();
-MeuTeste.Estacionamento.Executar();
+//MeuTeste.Estacionamento.Executar();
+using MeuTeste;
+
+// Pessoa p1 = new Pessoa();
+// p1.Name = "dan";
+// p1.Sobrenome = "tes";
+// p1.Idade = 21;
+// p1.Apresentar();
+
+// Pessoa p2 = new Pessoa();
+// p2.Name = "nad";
+// p2.Sobrenome = "set";
+
+Pessoa p1 = new Pessoa(nome:"Ten",sobrenome:"teste");
+Pessoa p2 = new Pessoa(nome:"Dan",sobrenome:"teste");
+
+Curso mat = new Curso();
+mat.Name="Matematica";
+mat.Alunos= new List<Pessoa>();
+
+mat.AdicionaAluno(p1);
+mat.AdicionaAluno(p2);
+mat.ListarAlunos();
